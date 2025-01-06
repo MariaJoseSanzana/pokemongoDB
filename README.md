@@ -49,8 +49,8 @@ Instalación
 Clona el repositorio:
 bash
 Copiar código
-git clone https://github.com/tu-usuario/mi-api-pokedex.git
-cd mi-api-pokedex
+git clone https://github.com/MariaJoseSanzana/pokemongoDB.git
+cd pokemongoDB
 
 Instala las dependencias:
 bash
