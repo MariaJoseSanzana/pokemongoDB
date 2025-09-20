@@ -1,4 +1,10 @@
 # pokemongoDB
+
+Este proyecto es una API RESTful para gestionar Pokémon, incluyendo funcionalidades de autenticación de usuarios y la posibilidad de CRUD (crear, leer, actualizar, eliminar) para los Pokémon. La API está construida con Node.js, Express, MongoDB, y JWT para la autenticación.
+
+Características Gestión de Pokémon: CRUD completo para los Pokémon, con la opción de filtrarlos por ID o tipo. Autenticación: Los usuarios pueden registrarse, iniciar sesión y acceder a rutas protegidas utilizando JWT (JSON Web Token). Modelos de datos: Incluye modelos de Pokémon y usuarios utilizando Mongoose. Rutas protegidas: Algunas rutas requieren autenticación para interactuar con los Pokémon (crear, actualizar, eliminar). Tecnologías Utilizadas Node.js: Plataforma de JavaScript para el backend. Express: Framework para crear servidores web y gestionar rutas. MongoDB: Base de datos NoSQL utilizada para almacenar los datos de los usuarios y los Pokémon. JWT (JSON Web Tokens): Para la autenticación de usuarios y protección de rutas. Mongoose: Biblioteca de modelado de objetos MongoDB para Node.js. Requisitos Antes de comenzar, asegúrate de tener instaladas las siguientes herramientas en tu máquina:
+
+Node.js (v14 o superior) MongoDB (local o en un servicio de bases de datos como MongoDB Atlas) npm (gestor de paquetes de Node.js)
 Mi API Pokédex
 ¡Bienvenido a la API Pokédex! Este proyecto es una API RESTful para gestionar Pokémon, incluyendo funcionalidades de autenticación de usuarios y la posibilidad de CRUD (crear, leer, actualizar, eliminar) para los Pokémon. La API está construida con Node.js, Express, MongoDB, y JWT para la autenticación.
 
